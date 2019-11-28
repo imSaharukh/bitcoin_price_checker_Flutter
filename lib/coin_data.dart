@@ -23,6 +23,7 @@ const List<String> currenciesList = [
   'SEK',
   'SGD',
   'USD',
+  'BDT',
   'ZAR'
 ];
 
@@ -37,9 +38,9 @@ const bitcoinAverageURL =
 
 class CoinData {
   //3. Create the Asynchronous method getCoinData() that returns a Future (the price data).
-  Future getCoinData() async {
+  Future getCoinData(coin) async {
     //4. Create a url combining the bitcoinAverageURl with the currencies we're interested, BTC to USD.
-    String requestURL = '$bitcoinAverageURL/BTCUSD';
+    String requestURL = '$bitcoinAverageURL/BTC$coin';
     //5. Make a GET request to the URL and wait for the response.
     http.Response response = await http.get(requestURL);
 
