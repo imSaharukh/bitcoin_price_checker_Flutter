@@ -1,7 +1,7 @@
 
 
 
-# Bitcoin Ticker 🤑 (Under Devlopment) [iOS part not finis yet]
+# Bitcoin Ticker 🤑 (Under Devlopment) [iOS part not finish yet]
 
 
 crypto currency price checking app. 
